@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Netflix Clone - Home</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background: #111;
+            color: #fff;
+        }
+
+        #header {
+            background: #111;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            display: flex;
+            justify-content: space-between;
+            padding: 20px 40px;
+            z-index: 2;
+        }
+
+        #header img {
+            width: 100px;
+            cursor: pointer;
+        }
+
+        #header ul {
+            display: flex;
+            list-style: none;
+            padding: 0;
+        }
+
+        #header ul li {
+            margin-right: 20px;
+            font-size: 1.2rem;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        #hero {
+            background: url('netflix-hero.jpg') no-repeat center center/cover;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        #hero h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+            color: #fff;
+        }
+
+        #hero p {
+            font-size: 1.2rem;
+            color: #fff;
+        }
+
+        #cta {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        #cta .btn {
+            background: #e50914;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            font-size: 1.2rem;
+            text-transform: uppercase;
+            border-radius: 5px;
+        }
+
+        #cta .btn:hover {
+            background: #ff3d1f;
+        }
+    </style>
+</head>
+<body>
+    <div id="header">
+        <img src="C:\Users\DELL\Downloads\NetflixHero.jpg" >
+        <ul>
+            <li><a href="C:\Bharat Intern\NetflixClone.html">Home</a></li>
+            <li><a href="C:\Bharat Intern\NetflixClone11.html">TV Shows</a></li>
+            <li> <a href="C:\Bharat Intern\NetflixClone12.html">Movies</a></li>
+            <li><a href="C:\Bharat Intern\NetflixClone13.html">New and Popular</a></li>
+        </ul>
+    </div>
+
+    <div id="hero">
+        <h1>Unlimited movies, TV shows, and more.</h1>
+        <p>Watch anywhere. Cancel anytime.</p>
+        <div id="cta">
+            <button class="btn">Join Free for 30 Days</button>
+        </div>
+    </div>
+</body>
+</html>
